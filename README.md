@@ -28,3 +28,4 @@ job.start();
 ```
 
 Esta es una tarea programada o cron job que se ejecutara cada segundo y solo imprimirá por consola el texto `You will see this message every second`.
+Debemos notar que la cron expression, es la parte vital de estas tareas programadas, ya que esta inidica cada cuanto se ejecutará, por eso es sumamente importante entender las cron expressions.
