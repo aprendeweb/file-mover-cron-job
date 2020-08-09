@@ -12,5 +12,7 @@ Esta cron expression indica repeticion cada minuto. La siguiente imagen nos ayud
 
 Quizas nos estemos preguntando por que en la imagen aparecen 6 ```*``` y en ejemplo aparecen 5, esto es debido a que el sexto ```*``` es opcional, y este es indicador de segundos, ejemplo la siguiente cron expression indica repetición cada segundo ```* * * * * *```.
 
+Trabajar con cron expressions, no resulta fácil para muchos, pero para ayudarnos a crear estas expresiones de tiempo existen buenas herramientas como [CronTab](https://crontab.guru), personalmente se las recomiendo, nos ayuda a validar y nos brinda algunos [ejemplos](https://crontab.guru/examples.html) para familiarizarnos con este tipo de expresiones de tiempo que son muy usadas.
+
 ### Ejemplo de un Cron Job
 Ahora que ya entendimos las **cron expressions** es tiempo de usarlas para crear nuestra primera tarea programada o nuestro primer cron job, y para esto, vamos a ayudarnos de uno de los [paquetes más populares](https://www.npmjs.com/package/cron) para este tipo de funciones 
