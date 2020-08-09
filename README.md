@@ -17,4 +17,14 @@ Trabajar con cron expressions, no resulta fácil para muchos, pero para ayudarno
 ![Ejemplos](https://raw.githubusercontent.com/aprendeweb/file-mover-cron-job/master/images/cron-examples.png)
 
 ### Ejemplo de un Cron Job
-Ahora que ya entendimos las **cron expressions** es tiempo de usarlas para crear nuestra primera tarea programada o nuestro primer cron job, y para esto, vamos a ayudarnos de uno de los [paquetes más populares](https://www.npmjs.com/package/cron) para este tipo de funciones 
+Ahora que ya entendimos las **cron expressions** es tiempo de usarlas para crear nuestra primera tarea programada o nuestro primer cron job, y para esto, vamos a ayudarnos de uno de los [paquetes más populares](https://www.npmjs.com/package/cron) para este tipo de funciones.
+
+```
+var CronJob = require('cron').CronJob;
+var job = new CronJob('* * * * * *', function() {
+  console.log('You will see this message every second');
+}, null, true, 'America/Los_Angeles');
+job.start();
+```
+
+Esta es una tarea programada o cron job que se ejecutara cada segundo y solo imprimirá por consola el texto `You will see this message every second`.
