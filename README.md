@@ -14,7 +14,7 @@ Quizas nos estemos preguntando por que en la imagen aparecen 6 ```*``` y en ejem
 
 Trabajar con cron expressions, no resulta fácil para muchos, pero para ayudarnos a crear estas expresiones de tiempo existen buenas herramientas como [CronTab](https://crontab.guru), personalmente se las recomiendo, nos ayuda a validar y nos brinda algunos [ejemplos](https://crontab.guru/examples.html) para familiarizarnos con este tipo de expresiones de tiempo que son muy usadas.
 
-[Ejemplos](https://raw.githubusercontent.com/aprendeweb/file-mover-cron-job/master/images/cron-examples.png)
+![Ejemplos](https://raw.githubusercontent.com/aprendeweb/file-mover-cron-job/master/images/cron-examples.png)
 
 ### Ejemplo de un Cron Job
 Ahora que ya entendimos las **cron expressions** es tiempo de usarlas para crear nuestra primera tarea programada o nuestro primer cron job, y para esto, vamos a ayudarnos de uno de los [paquetes más populares](https://www.npmjs.com/package/cron) para este tipo de funciones 
