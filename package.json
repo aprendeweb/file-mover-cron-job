@@ -1,0 +1,24 @@
+{
+  "name": "file-mover-cron-job",
+  "version": "1.0.0",
+  "description": "Son conocidas popularmente como tareas programadas, en teoria son funciones que se ejecutan basadas en una expresion de tiempo (cron expression).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprendeweb/file-mover-cron-job.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprendeweb/file-mover-cron-job/issues"
+  },
+  "homepage": "https://github.com/aprendeweb/file-mover-cron-job#readme"
+}
